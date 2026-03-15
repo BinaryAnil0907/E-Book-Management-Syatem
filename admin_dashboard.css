@@ -1,0 +1,115 @@
+/* General Page Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+h3 {
+    margin-top: 30px;
+    margin-bottom: 12px;
+    color: #34495e;
+    border-left: 5px solid #3498db;
+    padding-left: 8px;
+    font-size: 18px;
+}
+
+/* Buttons */
+a.btn, button {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 6px 4px;
+    text-decoration: none;
+    background: #3498db;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 6px;
+    transition: background 0.3s ease;
+}
+
+a.btn:hover, button:hover {
+    background: #2c80b4;
+}
+
+a.btn.logout {
+    background: #e74c3c;
+}
+
+a.btn.logout:hover {
+    background: #c0392b;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0 30px;
+    font-size: 14px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+table th, table td {
+    padding: 12px 14px;
+    text-align: left;
+}
+
+table th {
+    background: #3498db;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+
+table tr:nth-child(even) {
+    background: #f8f9fb;
+}
+
+table tr:hover {
+    background: #eef5fc;
+    transition: 0.3s ease;
+}
+
+/* Delete Links */
+a.delete-link {
+    color: #e74c3c;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.delete-link:hover {
+    text-decoration: underline;
+}

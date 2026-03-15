@@ -1,0 +1,113 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background: #f4f6f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px 20px;
+    min-height: 100vh;
+}
+
+/* Container */
+.container {
+    background: #fff;
+    width: 100%;
+    max-width: 550px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+.container h1 {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.container h2 {
+    font-size: 18px;
+    text-align: center;
+    color: #34495e;
+    margin-bottom: 20px;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Labels */
+form label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+/* Inputs */
+form input[type="text"],
+form input[type="file"] {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: border 0.3s ease;
+}
+
+form input:focus {
+    border-color: #2980b9;
+    outline: none;
+}
+
+/* Button */
+form button {
+    background: #2980b9;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #1f6391;
+}
+
+/* Message */
+p {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+/* Back Link */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #2980b9;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #1f6391;
+}
